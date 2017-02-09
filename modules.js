@@ -1,0 +1,1 @@
+exports.AwFormModule = require('./lib/aw-form.module').AwFormModule;

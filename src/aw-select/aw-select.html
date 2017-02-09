@@ -1,0 +1,32 @@
+<!--<div class="form-group"-->
+     <!--[ngClass]="{'has-error':!formControl.valid && formControl.touched}">-->
+  <!--<label [attr.for]="controlDefinition.id"-->
+         <!--class="control-label">{{controlDefinition.name | translate}}</label>-->
+  <!--<span class="help-block"-->
+        <!--*ngIf="controlDefinition.hint">{{controlDefinition.hint}}</span>-->
+  <!--<div class="input-group">-->
+    <!--<span class="input-group-addon"-->
+          <!--*ngIf="controlDefinition.prefix">{{controlDefinition.prefix}}</span>-->
+
+    <!--<ion-select #selectCtrl-->
+                <!--class="aw-select"-->
+                <!--[(ngModel)]="selected"-->
+                <!--interface="action-sheet"-->
+                <!--multiple="false"-->
+                <!--id="{{controlDefinition.id}}-select"-->
+                <!--placeholder="{{controlDefinition.placeholder | translate}}"-->
+                <!--[selectOptions]="selectOptions"-->
+                <!--(ionChange)="onSelectionChanged($event)"-->
+                <!--padding>-->
+      <!--<ion-option *ngFor="let item of options" id="{{item.id}}" value="{{ item.value }}">{{ item.display | translate }}</ion-option>-->
+    <!--</ion-select>-->
+
+    <!--<span class="input-group-addon" *ngIf="controlDefinition.suffix">{{controlDefinition.suffix}}</span>-->
+  <!--</div>-->
+  <!--<span class="help-block"-->
+        <!--*ngIf="!formControl.valid && formControl.touched && formControl.errors['required']"-->
+        <!--[ngClass]="{'error': !formControl.valid && formControl.touched}">-->
+    <!--This field is required!-->
+  <!--</span>-->
+<!--</div>-->
+
