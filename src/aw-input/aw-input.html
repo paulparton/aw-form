@@ -3,7 +3,7 @@
          class="control-label required"
          [ngClass]="{'required': isRequired()}"
          *ngIf="controlDefinition.name">
-    {{controlDefinition.name | translate}}
+    {{controlDefinition.name}}
   </label>
   <span class="help-block"
         *ngIf="controlDefinition.hint">
@@ -17,7 +17,7 @@
     <input type="{{controlDefinition.type}}"
            class="form-control text-input"
            id="{{controlDefinition.id}}-txt"
-           placeholder="{{controlDefinition.placeholder | translate}}"
+           placeholder="{{controlDefinition.placeholder}}"
            [formControl]="formControl"
            #input/>
     <span class="input-group-addon"
@@ -28,7 +28,7 @@
   <span class="help-block"
         *ngIf="!formControl.valid && formControl.touched && formControl.errors['required']"
         [ngClass]="{'error': !formControl.valid && formControl.touched}">
-    {{ 'common.required_field' | translate }}
+    {{ 'common.required_field' }}
   </span>
 </div>
 

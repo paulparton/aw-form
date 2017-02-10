@@ -20,10 +20,11 @@ function coreDirectives() {
 }
 
 @NgModule({
-  imports: [CommonModule, FormsModule, ReactiveFormsModule,
-    TranslateModule.forRoot({
-      provide: TranslateLoader,
-    }),
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    TranslateModule.forRoot(),
   ],
   declarations: [coreDirectives()],
   exports: [coreDirectives()],
@@ -35,7 +36,7 @@ export class AwFormModule {
   public static forRoot(): ModuleWithProviders {
     return {
       ngModule: AwFormModule,
-      providers: [],
+      providers: [TranslateService],
     };
   }
 }
