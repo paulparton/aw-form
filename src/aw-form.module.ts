@@ -27,7 +27,7 @@ function coreDirectives() {
     TranslateModule.forRoot(),
   ],
   declarations: [coreDirectives()],
-  exports: [coreDirectives()],
+  exports: [coreDirectives(), TranslateModule],
   providers: [TranslateService]
 })
 export class AwFormModule {
