@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "html": "copyfiles -u 1npm src/*.html src/**/*.html src/**/*.css lib/",
     "prepublish": "npm run build",
+    "postinstall": "npm install",
     "build": "rm -rf lib && tsc -p src && npm run html"
   },
   "devDependencies": {
