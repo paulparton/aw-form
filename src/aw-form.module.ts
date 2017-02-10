@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AwForm } from './aw-form';
 import { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input/aw-input';
-import {TranslateModule} from 'ng2-translate';
+import {
+  TranslateModule, TranslateService, TranslateLoader, TranslateStaticLoader
+}from 'ng2-translate/ng2-translate';
 // import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
 // import { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
 // import { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select/aw-select';
@@ -18,10 +20,14 @@ function coreDirectives() {
 }
 
 @NgModule({
-  imports: [CommonModule, FormsModule, ReactiveFormsModule, TranslateModule.forRoot()],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule,
+    TranslateModule.forRoot({
+      provide: TranslateLoader,
+    }),
+  ],
   declarations: [coreDirectives()],
   exports: [coreDirectives()],
-  providers: []
+  providers: [TranslateService]
 })
 export class AwFormModule {
   constructor(){
