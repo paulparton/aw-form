@@ -7,7 +7,7 @@ import {
 } from 'ng2-translate/ng2-translate';
 
 import { AwForm } from './aw-form';
-import { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input';
+import { AwInputText, AwTextInputControlDefinition, AwTextInputChangedEvent } from './aw-input';
 import { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select';
 
 import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time';
@@ -16,9 +16,8 @@ import { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from 
 
 
 export { AwForm } from './aw-form';
-export { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input';
+export  *  from './aw-input';
 export { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select';
-
 export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time';
 export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text';
 export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea';
