@@ -8,15 +8,16 @@ import {
 
 import { AwForm } from './aw-form';
 import { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input/aw-input';
-import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
-import { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
 import { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select/aw-select';
-import { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
+
+// import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
+// import { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
+// import { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
 
 
 export function coreDirectives() {
   return [
-    AwForm, AwInputText, AwDateTime, AwReadOnlyText, AwSelect, AwTextArea,
+    AwForm, AwInputText, AwSelect
   ];
 }
 
@@ -42,7 +43,8 @@ export class AwFormIonicModule {
 
 export { AwForm } from './aw-form';
 export { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input/aw-input';
-export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
-export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
 export { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select/aw-select';
-export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
+
+// export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
+// export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
+// export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
