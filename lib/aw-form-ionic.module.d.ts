@@ -8,9 +8,7 @@ export { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChan
 export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
 export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
 export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
-
 export declare function coreDirectives(): (typeof AwInputText | typeof AwForm | typeof AwSelect)[];
 export declare class AwFormIonicModule {
     static forRoot(): ModuleWithProviders;
 }
-
