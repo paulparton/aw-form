@@ -27,7 +27,8 @@ export interface AwTextInputChangedEvent {
 
 @Component({
   selector: 'aw-input-text',
-  template: require('./aw-input.html')
+  templateUrl: 'aw-input.html'
+  // template: require('./aw-input.html')
 })
 export class AwInputText {
 
