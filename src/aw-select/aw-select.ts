@@ -34,7 +34,9 @@ export interface  AwSelectOption {
 
 @Component({
   selector: 'aw-select',
-  templateUrl: 'aw-select.html'
+  // templateUrl: 'aw-select.html'
+  template: require('./aw-select.html')
+
 })
 
 export class AwSelect {

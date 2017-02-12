@@ -27,7 +27,8 @@ export interface AwTextAreaChangedEvent {
 
 @Component({
   selector: 'aw-textarea',
-  templateUrl: 'aw-textarea.html'
+  // templateUrl: 'aw-textarea.html'
+  template: require('aw-textarea.html')
 })
 export class AwTextArea {
 

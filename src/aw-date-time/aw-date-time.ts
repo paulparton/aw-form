@@ -27,7 +27,8 @@ export interface AwDateTimeChangedEvent {
 
 @Component({
   selector: 'aw-date-time',
-  templateUrl: 'aw-date-time.html'
+  // templateUrl: 'aw-date-time.html'
+  template: require('aw-date-time.html')
 })
 export class AwDateTime {
 
