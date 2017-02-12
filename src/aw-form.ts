@@ -8,7 +8,8 @@ import {AwInputText} from './aw-input/aw-input';
 
 @Component({
   selector: 'aw-form',
-  template: require('./aw-form.html')
+  // template: require('./aw-form.html'),
+  templateUrl: 'aw-form.html'
 })
 export class AwForm {
 
