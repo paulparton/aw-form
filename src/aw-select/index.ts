@@ -1,1 +1,1 @@
-// export {AwSelectControlDefinition, AwSelectOptionChangedEvent, AwSelect, AwSelectOption} from './aw-select';
+export {AwSelectControlDefinition, AwSelectOptionChangedEvent, AwSelect, AwSelectOption} from './aw-select';

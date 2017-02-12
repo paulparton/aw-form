@@ -7,21 +7,21 @@ import {
 } from 'ng2-translate/ng2-translate';
 
 import { AwForm } from './aw-form';
-import { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input/aw-input';
-import { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select/aw-select';
+import { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input';
+import { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select';
 
-import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
-import { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
-import { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
+import { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time';
+import { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text';
+import { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea';
 
 
 export { AwForm } from './aw-form';
-export { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input/aw-input';
-export { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select/aw-select';
+export { AwInputText, AwTextInputChangedEvent, AwTextInputControlDefinition } from './aw-input';
+export { AwSelect, AwSelectControlDefinition, AwSelectOption, AwSelectOptionChangedEvent } from './aw-select';
 
-export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time/aw-date-time';
-export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text/aw-readonly-text';
-export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea/aw-textarea';
+export { AwDateTime, AwDateTimeChangedEvent, AwDateTimeControlDefinition } from './aw-date-time';
+export { AwReadOnlyText, AwReadOnlyTextControlDefinition } from './aw-readonly-text';
+export { AwTextArea, AwTextAreaChangedEvent, AwTextAreaControlDefinition } from './aw-textarea';
 
 export function coreDirectives() {
   return [
